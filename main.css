@@ -1,0 +1,452 @@
+/* FUENTES */
+
+.f-work-sans-1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    color: #0C1919;
+}
+
+.f-work-sans-2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    color: #0C1919;
+}
+
+.f-work-sans-3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #0C1919;
+}
+
+.f-indie-flower-1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 48px;
+    font-weight: lighter;
+    color: #E1A142;
+}
+
+.f-indie-flower-2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #4E7777;
+}
+
+
+
+/* ESTILOS GENERALES */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
+}
+
+.wrapper {
+    max-width: 1024px;
+    justify-self: center;
+    margin: 24px;
+}
+
+.styled-box {
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px -9px #4E7777;
+}
+
+.card-button {
+    background-color: #4E7777;
+    box-shadow: 0px 10px 20px -9px #4E7777;
+    transition: all ease-in 100ms;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 6px 14px;
+}
+
+.card-button:hover {
+    background-color: #608f8fe7;
+}
+
+/* HEADER & NAV */
+
+.header {
+    background-color: #0C1919;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 24px;
+}
+
+.nav-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 32px;
+    height: 32px;
+}
+
+.nav-button__line {
+    border-radius: 24px;
+    background-color: #fff;
+    height: 4px;
+}
+
+.nav-container {
+    display: none;
+}
+
+.nav-container__li {
+    margin: 0px 12px;
+}
+
+.nav-container__li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.active {
+    background-color: #88AAAA;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+
+/* MAIN CONTENT */
+
+/* HERO */
+
+.hero {
+    background-image: url(/assets/inicio/portada.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    padding: 2% 0% 12% 0%;
+}
+
+.hero-text {
+    margin: 16px 0px;
+    color: #fff;
+}
+
+
+/* ACTIVITIES */
+
+.activities {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-3%);
+}
+
+.activities-border {
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 0% 4%;
+}
+
+.activities-container {
+    width: 100%;
+}
+
+.activities-card {
+    max-width: 328px;
+    margin-bottom: 8%;
+}
+
+.activities-card img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* ABOUT */
+
+.about {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* BANNER */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(/assets/inicio/fondo-ola.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+.banner-text {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    font-size: 32px;
+    margin: 12% 2%;
+}
+
+
+/* FEATURED PLACES */
+
+.featured-places {
+    display: flex;
+    justify-content: center;
+}
+
+.featured-places-container {
+    width: 100%;
+}
+
+.featured-places-card img {
+    width: 100%;
+    margin: 40px 0px 20px 0px;
+}
+
+.featured-places-card ul {
+   margin: 0px 0px 0px 30px;
+}
+
+.card-1 {
+    grid-area: card-1;
+}
+
+.card-2 {
+    grid-area: card-2;
+}
+
+.card-3 {
+    grid-area: card-3;
+}
+
+
+
+/* REVIEWS */
+
+.reviews-card {
+    background-color: #88AAAA4D;
+    margin: 24px 0px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews-card img {
+    border: 3px solid #fff;
+    border-radius: 80px;
+    margin-bottom: 24px;
+}
+
+.reviews-card__opinion {
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.reviews-card__name {
+    color: #4E7777;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #4E7777;
+    padding: 40px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .wrapper {
+    width: 100%;
+    margin: 0%;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+
+.social li {
+    margin: 0% 6px;
+}
+
+.copy {
+    color: #fff;
+    text-align: center;
+}
+
+
+
+/* MEDIA QUERIES */
+
+
+
+
+@media screen and (min-width: 425px) {
+    .card-button {
+        margin-top: 16px;
+    }
+
+
+    /* FEATURED PLACES */
+    
+    .featured-places-container {
+        display: grid;
+        grid-template-areas: 
+        "card-1 card-1"
+        "card-2 card-3";
+        grid-template-rows: repeat(2, max-content);
+        gap: 40px 20px;
+    }
+    
+    .featured-places-card img {
+        margin: 0px;
+    }
+    /* .featured-places-card {
+        display: flex;
+        flex-wrap: wrap;
+    } */
+
+    
+
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    /* NAV */
+
+    .nav-button {
+        display: none;
+    }
+
+    .nav-container {
+        display: block;
+    }
+
+    .nav-container__ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+
+
+    /* ACTIVITIES */
+
+    .activities {
+        transform: translateY(-16%);
+    }
+
+    .activities-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: start;
+        column-gap: 20px;
+    }
+
+    /* BANNER */
+
+    .banner-text {
+        padding: 0% 10%;
+    }
+
+
+    /* FEATURED PLACES */
+    
+    .card-1 {
+        display: flex;
+    }
+
+    .featured-places-card img {
+        height: 35vmax;
+    }
+
+    .card-1 img {
+        width: 60%;
+        margin-right: 20px;
+    }
+
+    /* REVIEWS */
+
+    .reviews {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .reviews .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+
+    .reviews-card {
+        flex-direction: row;
+    }
+
+    /* FOOTER */
+
+    .footer .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .social {
+        margin-bottom: 0%;
+    }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+    /* FEATURED PLACES */
+
+    .featured-places-container {
+        display: grid;
+        grid-template-areas: 
+        "card-1 card-1"
+        "card-2 card-3";
+        grid-template-rows: 394px 364px;
+        gap: 40px 20px;
+   }
+
+   .featured-places-card {
+       display: flex;
+   }
+
+   .featured-places-card img {
+       height: auto;
+       margin-right: 20px;
+   }
+
+   .featured-places-card div {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: flex-start;
+   }
+
+}
+
+/* ============= */
+
