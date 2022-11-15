@@ -190,6 +190,8 @@
     background-size: cover;
     background-position: center;
     height: auto;
+
+    margin: 40px 0px;
 }
 
 .banner-text {
@@ -301,11 +303,19 @@
 
 
 
-@media screen and (min-width: 425px) {
-    .card-button {
-        margin-top: 16px;
+@media screen and (min-width: 475px) {
+    
+    /* ESTILOS GENERALES */
+    
+    .wrapper {
+        margin: 24px 48px;
     }
 
+    /* ACTIVITIES */
+
+    .activities .wrapper {
+        margin: 24px;
+    }
 
     /* FEATURED PLACES */
     
@@ -319,12 +329,12 @@
     }
     
     .featured-places-card img {
-        margin: 0px;
+        margin: 0px 0px 20px 0px;
     }
-    /* .featured-places-card {
-        display: flex;
-        flex-wrap: wrap;
-    } */
+    
+    .card-1 img {
+        margin-bottom: 0px;
+    }
 
     
 
@@ -371,13 +381,9 @@
 
 
     /* FEATURED PLACES */
-    
+
     .card-1 {
         display: flex;
-    }
-
-    .featured-places-card img {
-        height: 35vmax;
     }
 
     .card-1 img {
@@ -418,6 +424,7 @@
 
 
 @media screen and (min-width: 1024px) {
+
 
     /* FEATURED PLACES */
 
