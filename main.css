@@ -33,7 +33,6 @@
 }
 
 
-
 /* ============ GENERAL STYLES ================= */
 
 * {
@@ -161,12 +160,12 @@
 
 .activities-card {
     max-width: 328px;
-    margin-bottom: 8%;
+    margin: 0% 0% 8% 0%;
 }
 
 .activities-card img {
     width: 100%;
-    margin-bottom: 10px;
+    margin: 0px 0px 10px 0px;
 }
 
 
@@ -311,7 +310,6 @@
     margin: 0px 0px 24px 0px;
 }
 
-
 .social li {
     margin: 0% 6px;
 }
@@ -379,6 +377,7 @@
 /* ===== 580px ===== */
 
 @media screen and (min-width: 580px) {
+
     /* REVIEWS */
 
     .reviews-card {
@@ -432,12 +431,6 @@
         font-size: 32px;
         padding: 0% 10%;
     }
-
-
-    /* REVIEWS */
-
-    
-    
     
     /* FOOTER */
 
