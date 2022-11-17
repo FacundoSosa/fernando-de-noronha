@@ -40,10 +40,15 @@
     padding: 0%;
 }
 
-.wrapper {
+.main-wrapper {
     max-width: 1024px;
     justify-self: center;
     margin: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
 }
 
 .styled-box {
@@ -72,8 +77,6 @@
 
 .header {
     background-color: #0C1919;
-    display: flex;
-    justify-content: center;
 }
 
 .nav {
@@ -127,8 +130,6 @@
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
     height: auto;
     width: 100%;
     padding: 2% 0% 12% 0%;
@@ -143,8 +144,6 @@
 /* ACTIVITIES */
 
 .activities {
-    display: flex;
-    justify-content: center;
     transform: translateY(-3%);
 }
 
@@ -172,8 +171,6 @@
 /* ABOUT */
 
 .about {
-    display: flex;
-    justify-content: center;
     text-align: center;
     transform: translateY(-4%);
 }
@@ -190,16 +187,12 @@
 /* BANNER */
 
 .banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
     background-image: url(assets/inicio/fondo-ola.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: auto;
-
+    align-items: center;
     margin: 40px 0px;
 }
 
@@ -212,11 +205,6 @@
 
 
 /* FEATURED PLACES */
-
-.featured-places {
-    display: flex;
-    justify-content: center;
-}
 
 .featured-places-container {
     width: 100%;
@@ -255,8 +243,6 @@
 /* REVIEWS */
 
 .reviews {
-    display: flex;
-    justify-content: center;
     margin: 0px 0px 80px 0px;
 }
 
@@ -293,12 +279,10 @@
 .footer {
     background-color: #4E7777;
     padding: 40px 24px;
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-.footer .wrapper {
+.footer .main-wrapper {
     width: 100%;
     margin: 0%;
 }
@@ -328,21 +312,21 @@
 
 @media screen and (min-width: 475px) {
     
-    /* ESTILOS GENERALES */
+    /* GENERAL STYLES */
 
-    .wrapper {
+    .main-wrapper {
         margin: 8%;
     }
 
     /* HEADER & NAV */
 
-    .header .wrapper {
+    .header .main-wrapper {
         margin: 8px 8%;
     }
 
     /* ACTIVITIES */
 
-    .activities .wrapper {
+    .activities .main-wrapper {
         margin: 24px;
     }
 
@@ -396,13 +380,13 @@
 
     /* ESTILOS GENERALES */
 
-    .wrapper {
+    .main-wrapper {
         margin: 24px 12%;
     }
 
     /* HEADER & NAV */
 
-    .header .wrapper {
+    .header .main-wrapper {
         margin: 8px 12%;
     }
 
@@ -434,7 +418,7 @@
     
     /* FOOTER */
 
-    .footer .wrapper {
+    .footer .main-wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -453,13 +437,13 @@
 
     /* GENERAL STYLES */
 
-    .wrapper {
+    .main-wrapper {
         margin: 24px;
     }
 
     /* HEADER & NAV */
 
-    .header .wrapper {
+    .header .main-wrapper {
         margin: 8px 24px;
     }
 
